@@ -75,4 +75,11 @@ Running tree .git/ may produce an output like this:
     ├── HEAD
     └── objects
 
+#Git Workflow:
+
+Here's a diagram visually illustrating the Git workflow. It shows the sequence of steps involved in Git, including:
+Working Directory: Where files are created or modified.
+Staging Area: Files are added here using git add.
+Local Repository: Changes are committed here using git commit.
+Remote Repository: Changes are pushed here using git push.
 
