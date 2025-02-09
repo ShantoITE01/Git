@@ -83,3 +83,35 @@ Staging Area: Files are added here using git add.
 Local Repository: Changes are committed here using git commit.
 Remote Repository: Changes are pushed here using git push.
 
+
+### Steps to Add a File in Git (Edit, Stage, Commit, and Push)
+When you modify a file in Git, you need to add it to the staging area before committing. Below is a step-by-step guide:
+
+1. Edit the File
+Open and edit the file using Vim:
+
+
+vim test.txt
+After editing, save and exit:
+
+Exit without saving: :q!
+Save and exit (alternative): Esc + :wq!
+2. Check Git Status
+Check if the file is untracked or modified:
+
+git status
+3. Stage the File
+Add the file to the staging area:
+
+git add test.txt
+Now, running git status will show that the file is staged.
+
+4. Commit the File
+Commit the file with a meaningful message:
+git commit -m "Edited test.txt"
+5. Push to Remote Repository (If Needed)
+If you need to push the file to GitHub or any other remote repository:
+git push origin main
+(Replace main with your branch name if it's different, e.g., master.)
+
+This is how you edit, stage, commit, and push a file in Git.
